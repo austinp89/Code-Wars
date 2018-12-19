@@ -1,0 +1,10 @@
+function hello(name) {
+  
+  if (name === undefined || name === '')
+  return 'Hello, World!'
+  
+  const toLower = name.toLowerCase()
+  const first = toLower[0].toUpperCase() + toLower.slice(1)
+  
+  return `Hello, ${first}!`
+}
