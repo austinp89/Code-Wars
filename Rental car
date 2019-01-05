@@ -1,0 +1,12 @@
+function rentalCarCost(d) {
+   const total = d * 40
+   
+   if(total >= 280)
+     return total - 50
+    
+   else if(total >= 120)
+     return total - 20
+     
+   else
+     return total
+}
